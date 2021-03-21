@@ -8,16 +8,16 @@ title: vcpkg
 
 ```bash
 > git clone https://github.com/microsoft/vcpkg
-> .\vcpkg\bootstrap-vcpkg.bat
-> .\vcpkg integrate install
-(ADMIN) > .\vcpkg integrate install
+> vcpkg\bootstrap-vcpkg.bat
+> vcpkg integrate install
+(ADMIN) > vcpkg integrate install
 ```
 
 ## Use
 
 ```bash
-.\vpckg install package:x64-windows
-.\vcpkg search package:x64-windows
+> vpckg install package:x64-windows
+> vcpkg search package:x64-windows
 ```
 
 ### References

@@ -7,7 +7,7 @@ Eigen3 is a math library for [[cpp]].
 ## Installation with [[vcpkg]]
 
 ```bash
-.\vcpkg.exe install eigen3:x64-windows
+> vcpkg.exe install eigen3:x64-windows
 ```
 
 ## Use with [[CMake]]
