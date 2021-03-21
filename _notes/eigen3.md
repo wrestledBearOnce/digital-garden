@@ -2,7 +2,7 @@
 title: Eigen3
 ---
 
-Eigen3 is a math library for [[CPP]].
+Eigen3 is a math library for [[cpp]].
 
 ## Installation with [[vcpkg]]
 

@@ -20,6 +20,10 @@ title: vcpkg
 .\vcpkg search package:x64-windows
 ```
 
+### References
+
+[Vcpkg GitHub repo](https://github.com/microsoft/vcpkg)
+
 ## Manifest example with specific version
 
 ```json
@@ -52,9 +56,11 @@ find_package(fmt CONFIG REQUIRED)
 target_link_libraries(main PRIVATE ZLIB::ZLIB fmt::fmt)
 ```
 
-ref article: https://devblogs.microsoft.com/cppblog/take-control-of-your-vcpkg-dependencies-with-versioning-support/
+### References
 
-ref version scheme: https://github.com/microsoft/vcpkg/blob/master/docs/users/versioning.reference.md#version-schemes
+- [Article](https://devblogs.microsoft.com/cppblog/take-control-of-your-vcpkg-dependencies-with-versioning-support/)
+
+- [Version scheme](https://github.com/microsoft/vcpkg/blob/master/docs/users/versioning.reference.md#version-schemes)
 
 ## Remove installation after integrate install / change integration to point to new folder
 

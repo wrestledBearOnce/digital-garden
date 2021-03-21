@@ -2,7 +2,7 @@
 title: CMake
 ---
 
-Build system for [[Cpp]].
+CMake is a build system for [[cpp]] and [[CSharp]]
 
 ## Minimal example
 
